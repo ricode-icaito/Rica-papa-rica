@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../imagen/Fondo-1.png");
+}
+
+header, section, footer, aside, nav, article, hgroup{
+  display: block;
+}
+
+h1{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 100px;
+  background-color: gray;
+}
+
+h1:hover{
+  background: blue;
+  color: white;
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 50px;
+  background: white;
+  color: green;
+}
+
+h2{
+  background: gold;
+  border-radius: 40%;
+  border: 2px solid #fff;
+  text-shadow: 2px 2px 2px rgb(155, 155, 179);
+}
+
+body{
+  text-align: center;
+}
+
+h3, h4{
+  font: bold 25px sans-serif; 
+}
+
+p{
+  color: blue;
+}
+
+.mayus{
+  text-transform: uppercase;
+}
+
+.agrupar{
+  width: 960px;
+  border: 2px solid black;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.cabecera{
+  background: blue;
+  border-radius: 20px;
+}
+
+.menu{
+  background: gray;
+  padding: 20px;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.menu li{
+  list-style: none;
+  padding: 5px;
+  font: bold 15px verdana;
+  display: inline-block;
+}
+
+li:hover{
+  background: gold;
+  color: blue;
+}
+
+li{
+  width: 50px;
+  background-color: red;
+}
+
+a:hover{
+  color: blue;
+}
+
+.seccion{
+  padding: 20px;
+  width: 600px;
+  border: 1px solid black;
+  float: left;
+}
+
+article{
+  background: #fffbcc;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+}
+
+time{
+  color: #999;
+}
+
+article footer{
+  text-align: right;
+}
+
+.columna{
+  width: 270px;
+  border: 1px solid black;
+  float: left;
+  margin: 450px 20px;
+}
+
+.pie{
+  clear: both;
+  background: gray;
+}
+
+.pie:hover{
+  background: white;
+  color: red;
+}
+
+img{
+  width: 250px;
+  display: inline;
+  margin: 15px auto;
+}
+
+img{
+  border-radius: 50%;
+  transform: rotate(-30deg);
+  transition: all .3s;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: rotate(0);
+}
+
+blockquote{
+  background: #fffbcc;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+}
+
+footer{
+  margin-bottom: 5px;
+}
+
+u{
+  color: red;  
+}
+
+#contact{
+  padding: 5px;
+  display: inline-block;
+  background-color: blue;
+  color: gold;
+}
+
+img:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+.column {
+  width: 50%;
+  }
+}
+
+img:hover{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
